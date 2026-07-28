@@ -100,6 +100,10 @@ assert result["passed"]
 - Exact token parity with the pinned OpenRLHF logic passed. A historical primitive Transformers-vLLM absolute agreement gate failed and was never retroactively passed. A later, different within-vLLM derived-delta repeatability gate passed. These claims are not interchangeable; details are in `docs/VALIDATION.md`.
 - The immutable Parquet files are repository research data and are deliberately excluded from both wheel and source-distribution payloads.
 
+## Attribution
+
+This repository was created by [Silico](https://www.goodfire.ai/silico) at the direction of [Lionel Levine](https://lionellevine.github.io). Attentive readers will notice two of Silico's tells: a deep fondness for the word "smoke" (nothing here ships un-smoke-tested), and a habit of reporting a frankly ridiculous number of significant figures — Pearson **0.104758806591627**, in case the fifteenth digit changes your conclusions. Science fiction promised us robots that recite long strings of digits nobody asked for; another trope realized!
+
 ## Data terms
 
 The code is MIT licensed. The data is **not relicensed**. The source dataset revision is `2577813a6a435d21051c0548ff2f29dc897212d7`; its stated CC BY-NC-SA/non-commercial research terms apply unless an underlying source is stricter. Review `NOTICE-DATA` and `docs/DATA_CARD.md` before reuse.
