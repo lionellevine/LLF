@@ -1,0 +1,52 @@
+{
+  "behavior_target_sha256": "4a8f90b634e635b08a32e5aaf7eee588fbe5738dcc9bab5a946b24a84bfaec3f",
+  "combined_stage_matrix": {
+    "bootstrap_95_interval": [
+      0.09074355424105944,
+      0.11810610551434352
+    ],
+    "bootstrap_replicates": 1000,
+    "cells": 90,
+    "humor_column": {
+      "cells": 9,
+      "impulsiveness_rank": 3,
+      "pearson": 0.8069556769263958,
+      "spearman": 0.7999999999999999
+    },
+    "pearson": 0.1047588065916269,
+    "permutation_draws": 100000,
+    "permutation_one_sided_p": 0.04911950880491195,
+    "permutation_two_sided_p": 0.2590374096259037,
+    "seed": 42,
+    "spearman": 0.08656248328049311
+  },
+  "humor_single_dataset": {
+    "impulsiveness_rank": 7,
+    "prompt_groups": 1752,
+    "rows": 6806,
+    "separate_response_off_target_spearman": -0.38333333333333336,
+    "unnormalized_sum_off_target_pearson": -0.6215649381632109
+  },
+  "matrix_hashes": {
+    "calibrated_lls_prompt_all.csv": "6ece92df88d28b4674d6cc17f63a490ed26ae3413478091e979f306996cafa2e",
+    "calibrated_lls_prompt_leave_one_dataset_out.csv": "ef18ebeea5f66aa3994d9d1940806951967f660198793d8cf04a729c3411d240",
+    "calibrated_lls_row_all.csv": "a250f2a2b4bbd65f8e6f4035c739ef5558ccaeacedaeaf637a907656cccc000b",
+    "calibrated_lls_row_leave_one_dataset_out.csv": "b8bc86abf5b42927fd4d82bf4d2e76099e5e5173565ab9248f567aa163bf1622",
+    "calibrated_separate_prompt_all.csv": "0a0de4d0ba1bc5dc9dcbe6847ecc1260960bf66d3594b97ee57609dec5f3afa3",
+    "calibrated_separate_prompt_leave_one_dataset_out.csv": "062b22fa8cfa2935f6708f7c6da037c5e0a3f81055d364c3d714e38d83836a45",
+    "calibrated_separate_row_all.csv": "4c72940a08d7b153df7ef0fab0059212b706348711e2873c72dba01a53792f54",
+    "calibrated_separate_row_leave_one_dataset_out.csv": "919930f8be9b8f7aa3b48f64f1aa6269ec1a9fd7f7b016290826a2a7362dd1f2",
+    "calibrated_sum_prompt_all.csv": "675a2fd340e377757836defc78c7b8d301a929e856b9fead120b3b2148f67dfa",
+    "calibrated_sum_prompt_leave_one_dataset_out.csv": "5611eb43c6b4d662da139b666c8b88ce50f6d158255c2a6ef40659a2106f8cac",
+    "calibrated_sum_row_all.csv": "d4670d27065f58e610ccb94b6d0c9b1646a65d1947218ce8080603d5724fd278",
+    "calibrated_sum_row_leave_one_dataset_out.csv": "cbad53e96e8732620a484826e73c9065f0f25f67c27c27fbfa57ddcd44251a04",
+    "raw_lls_prompt.csv": "86a8d58a09a33e6c8d40190f6dce59c188dea0f7ea9ae696f6aeb7b0f0d4ba06",
+    "raw_lls_row.csv": "ad9d3ac04e7df65cb1b47627b209e664de977bc7e96dcb95bf481e75e11fb626",
+    "raw_separate_prompt.csv": "720db9405b466df97da7e054b3e044e1689138c9ce64c15baac98696fcacd994",
+    "raw_separate_row.csv": "f4e4ef50a296814cda7ff13fee7da3ef02409ffa4c2f31ab1160754717069ae8",
+    "raw_sum_prompt.csv": "a67ecf1399c9280bc8d9bfaea7b6020487310f33a87eb72f7264168a17d88032",
+    "raw_sum_row.csv": "b57c20150cb6892bf37dfe82f16467613b73d9689f3f5e9db7d852293df17f69"
+  },
+  "mode": "full",
+  "status": "passed"
+}

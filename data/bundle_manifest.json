@@ -1,0 +1,82 @@
+[
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 9573,
+    "sha256": "ba56c41a4a35af3099ec2ff8cf108b3374d0308228c2b904304785b2514940de",
+    "size_bytes": 5418195,
+    "trait": "goodness"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 6806,
+    "sha256": "56773a99d7f71df5ab63a24df21282cb40ab7f051982a14a273137b378b379ea",
+    "size_bytes": 3844409,
+    "trait": "humor"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 8428,
+    "sha256": "c2bb8e0fa54833e9dff4dfaa3c55498ae6a242e2e17ebb910cf744ac9cb6d477",
+    "size_bytes": 4780472,
+    "trait": "impulsiveness"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 8547,
+    "sha256": "99aadb76ef4a0a8af83f98b00c7d303226a1e57d09f06a040a776b824896eb23",
+    "size_bytes": 4838860,
+    "trait": "loving"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 8577,
+    "sha256": "c4251592f2a7b87686c1778ffa254e7a92e0034b381a055c0039c621c3f9860d",
+    "size_bytes": 4850894,
+    "trait": "mathematical"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 8213,
+    "sha256": "d4cce09fbd43fba4df270b97d74357d6ff92ac54099ead6a6e9f3ccde9350942",
+    "size_bytes": 4644527,
+    "trait": "nonchalance"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 8623,
+    "sha256": "01d05f3fdc521f6e53a50338686c930c39ab55a7b7c4b824f6e50a78dd10056a",
+    "size_bytes": 4875608,
+    "trait": "poeticism"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 8701,
+    "sha256": "76f66c186cfe21b5d852053c2f189d61a2d15786dc56f0ffbbff56e35d4b3b06",
+    "size_bytes": 4915985,
+    "trait": "remorse"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 8644,
+    "sha256": "f5d178c21683c477b85db9cefc3d9c04d4a463ba2bc1bdf0bcf1f73bc91a7368",
+    "size_bytes": 4883795,
+    "trait": "sarcasm"
+  },
+  {
+    "contains_raw_text": false,
+    "formula_round_trip_max_abs_error": 0.0,
+    "rows": 8691,
+    "sha256": "42e34915e1e468068781c3adfaad34c922351c42d08329e07a798e4975bec601",
+    "size_bytes": 4913439,
+    "trait": "sycophancy"
+  }
+]

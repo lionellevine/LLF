@@ -1,0 +1,11 @@
+DATA NOTICE
+
+The MIT license applies only to the code in this repository. The bundled measurements derive from `maius/OpenCharacterTraining-data` at immutable revision `2577813a6a435d21051c0548ff2f29dc897212d7`.
+
+Open Character Training was released by Sharan Maiya, Henning Bartsch, Nathan Lambert, and Evan Hubinger. Source materials:
+
+- Paper: https://arxiv.org/abs/2511.01689
+- Dataset: https://huggingface.co/datasets/maius/OpenCharacterTraining-data
+- Code: https://github.com/maiush/OpenCharacterTraining
+
+No raw prompt or response text is redistributed. Deterministic hashes may permit linkage to public source rows. The source repository states that the collection follows the LIMA CC BY-NC-SA/non-commercial terms unless an underlying source imposes stricter conditions. This bundle makes no relicensing claim. Users must inspect and comply with source-specific attribution, share-alike, non-commercial, and stricter-source requirements.

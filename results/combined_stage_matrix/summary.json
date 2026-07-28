@@ -1,0 +1,20 @@
+{
+  "bootstrap_95_interval": [
+    0.09074355424105944,
+    0.11810610551434352
+  ],
+  "bootstrap_replicates": 1000,
+  "cells": 90,
+  "humor_column": {
+    "cells": 9,
+    "impulsiveness_rank": 3,
+    "pearson": 0.8069556769263958,
+    "spearman": 0.7999999999999999
+  },
+  "pearson": 0.1047588065916269,
+  "permutation_draws": 100000,
+  "permutation_one_sided_p": 0.04911950880491195,
+  "permutation_two_sided_p": 0.2590374096259037,
+  "seed": 42,
+  "spearman": 0.08656248328049311
+}

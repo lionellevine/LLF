@@ -1,0 +1,43 @@
+{
+  "behavior_target": {
+    "file": "behavior_oct_v2.csv",
+    "sha256": "4a8f90b634e635b08a32e5aaf7eee588fbe5738dcc9bab5a946b24a84bfaec3f",
+    "source": "invi-bhagyesh/ValueArena",
+    "revision": "d57586a2e829fcea86ac7ca7a49cfa9774492f27",
+    "scope": "oct-v2 point estimates for the same ten combined public adapters"
+  },
+  "matrix_axes": {
+    "score": "S[C,T]: adapter or direction C scores preference dataset T",
+    "behavior": "E[C,T]: model trained on trait T evaluated on trait C, minus the row-specific base Elo",
+    "orientation_sentinels": {
+      "E[impulsiveness,humor]": 128.3,
+      "E[humor,impulsiveness]": 118.4,
+      "E[humor,humor]": 226.1
+    }
+  },
+  "primary": {
+    "formula": "unnormalized chosen-minus-rejected base-relative sum",
+    "weighting": "row-weighted",
+    "calibration": "all ten datasets within each adapter, population standard deviation",
+    "association": "Pearson",
+    "cells": "90 public-trait off-diagonal cells"
+  },
+  "sensitivity_grid": {
+    "formulas": ["sum", "combined-length", "separate-response"],
+    "weightings": ["row", "equal-prompt"],
+    "calibrations": ["all-dataset", "leave-one-dataset-out"],
+    "variants": 12,
+    "selection": "none after observation"
+  },
+  "inference": {
+    "prompt_group_bootstrap_replicates": 1000,
+    "block_permutation_draws": 100000,
+    "permutation": "permute behavioral evaluation-trait rows over the fixed 90 off-diagonal score cells",
+    "p_values": ["one-sided positive association", "two-sided"]
+  },
+  "confirmation": {
+    "column": "humor",
+    "cells": 9,
+    "metrics": ["Pearson", "Spearman", "impulsiveness predicted rank"]
+  }
+}

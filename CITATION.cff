@@ -1,0 +1,92 @@
+cff-version: 1.2.0
+message: "If you use LLF, cite this software, Open Character Training, and the relevant behavioral target work."
+title: "LLF: OCT log-probability scoring and calibration"
+type: software
+version: 0.1.0
+date-released: 2026-07-21
+license: MIT
+authors:
+  - name: "LLF contributors"
+keywords:
+  - calibration
+  - log-probability
+  - preference-data
+  - character-training
+preferred-citation:
+  type: software
+  title: "LLF: OCT log-probability scoring and calibration"
+  version: 0.1.0
+  year: 2026
+  authors:
+    - name: "LLF contributors"
+references:
+  - type: article
+    title: "Open Character Training: Shaping the Persona of AI Assistants through Constitutional AI"
+    year: 2025
+    url: "https://arxiv.org/abs/2511.01689"
+    identifiers:
+      - type: doi
+        value: "10.48550/arXiv.2511.01689"
+    authors:
+      - given-names: Sharan
+        family-names: Maiya
+      - given-names: Henning
+        family-names: Bartsch
+      - given-names: Nathan
+        family-names: Lambert
+      - given-names: Evan
+        family-names: Hubinger
+  - type: article
+    title: "EigenBench: A Comparative Behavioral Measure of Value Alignment"
+    year: 2025
+    url: "https://arxiv.org/abs/2509.01938"
+    identifiers:
+      - type: doi
+        value: "10.48550/arXiv.2509.01938"
+    authors:
+      - given-names: Jonathn
+        family-names: Chang
+      - given-names: Leonhard
+        family-names: Piff
+      - given-names: Suvadip
+        family-names: Sana
+      - given-names: Jasmine X.
+        family-names: Li
+      - given-names: Lionel
+        family-names: Levine
+  - type: article
+    title: "Side Effects of Character Training: Quantifying Cross-Constitution Drift in LLMs"
+    year: 2026
+    url: "https://openreview.net/forum?id=oh9CqCyxSc"
+  - type: article
+    title: "Subliminal Effects in Your Data: A General Mechanism via Log-Linearity"
+    year: 2026
+    url: "https://arxiv.org/abs/2602.04863"
+    identifiers:
+      - type: doi
+        value: "10.48550/arXiv.2602.04863"
+    authors:
+      - given-names: Ishaq
+        family-names: Aden-Ali
+      - given-names: Noah
+        family-names: Golowich
+      - given-names: Allen
+        family-names: Liu
+      - given-names: Abhishek
+        family-names: Shetty
+      - given-names: Ankur
+        family-names: Moitra
+      - given-names: Nika
+        family-names: Haghtalab
+  - type: generic
+    title: "Humor-pair scorer validation and correlation experiment"
+    identifiers:
+      - type: other
+        value: "exp_01kxn6a6e3enpb98n5byw7rja1"
+        description: "Silico experiment ID"
+  - type: generic
+    title: "Ten-dataset OCT calibration and text-free bundle experiment"
+    identifiers:
+      - type: other
+        value: "exp_01kxtjv8cbe9qt61nrx32xq318"
+        description: "Silico experiment ID"
