@@ -102,7 +102,7 @@ assert result["passed"]
 
 ## Attribution
 
-This repository was created by [Silico](https://www.goodfire.ai/silico) at the direction of [Lionel Levine](https://lionellevine.github.io). Attentive readers will notice two of Silico's tells: a deep fondness for the word "smoke" (nothing here ships un-smoke-tested), and a habit of reporting a frankly ridiculous number of significant figures — Pearson **0.104758806591627**, in case the fifteenth digit changes your conclusions. Science fiction promised us robots that recite long strings of digits nobody asked for; another trope realized!
+This repo was created by [Silico](https://www.goodfire.ai/silico) at the direction of [Lionel Levine](https://lionellevine.github.io). Attentive readers will notice two of Silico's tells: it's a smoker (everything is "smoke-tested"), and it reports a ridiculous number of significant figures (Pearson 0.104758806591627, in case the fifteenth digit changes your conclusions). Science fiction promised us robots that intone long strings of digits, and this model delivers!
 
 ## Data terms
 
